@@ -220,6 +220,7 @@ i {
 #contact-form-wrapper {
     justify-content: center;
     align-items: center;
+    padding: 0 12px;
 }
 
 #contact-form-wrapper #contact-form-container {
@@ -410,10 +411,12 @@ footer #downloads ul li {
 
     .left {
         padding-left: revert;
+        padding: 12px;
     }
     
     .right {
         padding-right: revert;
+        padding: 12px;
     }
 
     #snakequation-container, #hero-page-container {
@@ -424,11 +427,15 @@ footer #downloads ul li {
         max-width: 70%;
     }
 
+    #contact-form-wrapper {
+        padding: 0 16px;
+    }
+
     #contact-form-container #form-image-container {
         display: none;
     }
 
     #contact-form-wrapper #contact-form-container {
-        width: 400px;
+        width: 100%;
     }
 }
