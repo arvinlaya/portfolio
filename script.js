@@ -29,8 +29,7 @@ window.addEventListener(
           }
         })
         .catch((error) => {
-          const message =
-            "Something went wrong. Please send your email through Gmail.";
+          errorNotifier();
         })
         .finally(() => {
           submitButton.innerText = "Submit";
