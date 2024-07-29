@@ -28,11 +28,11 @@ ul {
 }
 
 .left {
-    padding-left: 15dvh;
+    padding: 5dvw;
 }
 
 .right {
-    padding-right: 15dvh;
+    padding: 5dvw;
 }
 
 .container .left {
