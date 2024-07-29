@@ -337,20 +337,29 @@ i {
 
 .dividers-left, .dividers-right {
     width: 100%;
+    height: 1rem;
+    display: flex;
+    align-items: center;
+}
+
+.dividers-left {
+    justify-content: flex-start;
+}
+
+.dividers-right {
+    justify-content: flex-end;
+}
+
+.dividers-left p, dividers-right p {
+    font-size: .8rem;
+    letter-spacing: .1rem;
+    font-family: "Montserrat";
+    margin: 0 1rem;
+}
+
+.dividers-left div, .dividers-right div{
+    background-color: black;
     height: 1px;
-}
-
-
-.dividers-left div{
-    float: left;
-    background-color: black;
-    height: 100%;
-}
-
-.dividers-right div{
-    float: right;
-    background-color: black;
-    height: 100%;
 }
 
 footer {
