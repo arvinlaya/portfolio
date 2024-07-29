@@ -350,11 +350,12 @@ i {
     justify-content: flex-end;
 }
 
-.dividers-left p, dividers-right p {
+.dividers-left p, .dividers-right p {
     font-size: .8rem;
     letter-spacing: .1rem;
     font-family: "Montserrat";
     margin: 0 1rem;
+    font-weight: bold;
 }
 
 .dividers-left div, .dividers-right div{
