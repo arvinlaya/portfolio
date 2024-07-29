@@ -15,6 +15,7 @@ window.addEventListener(
         method: "POST",
         headers: {
           "Content-Type": "application/json",
+          "Accept": "application/json"
         },
         body: json,
       })
